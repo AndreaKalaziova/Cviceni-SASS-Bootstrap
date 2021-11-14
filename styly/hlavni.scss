@@ -7,6 +7,14 @@ html {
 	box-sizing: content-box;
 }
 
+$primary: thistle;
+$secondary: teal;
+$dark: $secondary;
+
 body {
 	font-family: sans-serif;
 }
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import 'bd-placeholder-img' 
